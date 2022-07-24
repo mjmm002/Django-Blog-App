@@ -9,7 +9,6 @@ from django.views.generic import (
     DeleteView
 )
 from django.http import HttpResponse
-from flask_login import login_required
 from .models import Post
 
 def home(request):
